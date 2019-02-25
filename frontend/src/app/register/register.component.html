@@ -29,8 +29,8 @@
 
       <mat-form-field appearance="outline">
         <mat-select placeholder="province" [(ngModel)]="views.provincesenNameSelect" name="provincesen" >
-          <mat-option *ngFor="let provincesen of provincesen" [value]="provincesen.provincesen">
-            {{provincesen.provincesen}}
+          <mat-option *ngFor="let provincesen of provincesen" [value]="provincesen.province">
+            {{provincesen.province}}
           </mat-option>
         </mat-select>
       </mat-form-field><br>

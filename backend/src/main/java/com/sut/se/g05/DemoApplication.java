@@ -51,10 +51,6 @@ public class DemoApplication {
 				p.setProvince(provinces);
 				provinceRepository.save(p);
 
-				Province ps = new Province();
-				ps.setProvince(provinces);
-				provinceRepository.save(ps);
-
 			});
 
 			Link l = new Link();

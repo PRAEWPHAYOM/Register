@@ -28,7 +28,7 @@ constructor(
       }
 
       getprovincesen(): Observable<any> {
-      return this.httpClient.get(this.API + '/Provincesen');
+      return this.httpClient.get(this.API + '/Province');
       }
 
       getgender(): Observable<any> {
