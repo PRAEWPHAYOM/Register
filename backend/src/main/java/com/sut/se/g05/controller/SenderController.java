@@ -101,7 +101,7 @@ public class SenderController {
         System.out.print(gender);
         Province province = provinceRepository.findByprovince(provincesenNameSelect);
         System.out.print(province);
-        Link l = linkRepository.findBylinkId((long)1);
+//        Link l = linkRepository.findBylinkId((long)1);
 
         s.setFirstname(firstnamesenInput);
         s.setLastname(lastnamesenInput);
@@ -112,7 +112,7 @@ public class SenderController {
         s.setPhone(phonesenInput);
         s.setEmail(emailInput);
         s.setPassword(passwordInput);
-        s.setLink(l);
+//        s.setLink(l);
         return senderRepository.save(s);
     }
 

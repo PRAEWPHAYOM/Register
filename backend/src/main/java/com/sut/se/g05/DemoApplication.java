@@ -53,12 +53,12 @@ public class DemoApplication {
 
 			});
 
-			Link l = new Link();
-			l.setLinkId((long)1);
-			Link l2 = new Link();
-			l2.setLinkId((long)2);
-			linkRepository.save(l);
-			linkRepository.save(l2);
+//			Link l = new Link();
+//			l.setLinkId((long)1);
+//			Link l2 = new Link();
+//			l2.setLinkId((long)2);
+//			linkRepository.save(l);
+//			linkRepository.save(l2);
 
 			Gender g = new Gender();
 			g.setGender("ชาย");
